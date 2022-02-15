@@ -1,0 +1,25 @@
+{
+    "name": "randompasswordmaker",
+    "version": "1.0.0",
+    "description": "This is an example test for MERN deployment on Heroku",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sammyiel/randompasswordmaker.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sammyiel/randompasswordmaker/issues"
+    },
+    "homepage": "https://github.com/Sammyiel/randompasswordmaker#readme",
+    "dependencies": {
+        "express": "^4.17.2",
+        "password-generator": "^2.3.2"
+    }
+}

@@ -8,6 +8,10 @@ const PORT = 5050
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+app.get('/', (req, res) => {
+    res.json({ status: 'Server on!' })
+})
+
 app.get('/passwords', (req, res) => {
     const count = 5
 
